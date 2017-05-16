@@ -1,7 +1,6 @@
 class TasksController < ApplicationController
-
   def index
-    @tasks = Task.all
+    @tasks = current_user.tasks
 
     respond_to do |format|
       format.json { render json: @tasks }
@@ -9,7 +8,7 @@ class TasksController < ApplicationController
   end
 
   def create
-    @task = Task.create task_params
+    @task = Task.create! task_params
 
     respond_to do |format|
       format.json { render json: @task }
@@ -36,6 +35,6 @@ class TasksController < ApplicationController
 
   private
   def task_params
-    params.require(:task).permit(:description, :completed)
+    params.require(:task).permit(:user_id, :description, :completed)
   end
 end
