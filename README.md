@@ -7,4 +7,4 @@ This is a basic todo-application written in Rails 5 & Angular 1, if you are inte
 2. make sure you have bundler installed and run `bundle install`
 3. now run `rails server -p 3005`
 
-Keep the server running, go to the [angular app](https://github.com/youssef1337/todo_app_angular) and follow the installation steps.
+Keep the server running, go to the [angular app](https://github.com/youssef1337/todo_app_angular) and follow the setup instructions if you haven't done so. Once you have both servers running, you can access the application at http://localhost:3000
