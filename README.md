@@ -1,5 +1,5 @@
 # Rails/Angular todo-list application
-This is a basic todo-application written in Rails 5 & Angular 1, if you are interested in trying it, follow the steps below.
+This is a basic todo-application written in Rails 5 & Angular 1, if you are interested in trying the app, follow the steps below.
 
 ## Setup
 
