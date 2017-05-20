@@ -1,24 +1,10 @@
-# README
+# Rails/Angular todo-list application
+This is a basic todo-application written in Rails 5 & Angular 1, if you are interested in trying it, follow the steps below.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Setup
 
-Things you may want to cover:
+1. Go to your terminal, clone the repo and cd into it.
+2. make sure you have bundler installed and run `bundle install`
+3. now run `rails server -p 3005`
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Keep the server running, go to the [angular app](https://github.com/youssef1337/todo_app_angular) and follow the installation steps.
